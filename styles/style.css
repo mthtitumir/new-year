@@ -147,7 +147,7 @@ header{
     width: 1140px;
     height: 301px;
     background-image: url("/images/watch.png");
-    background: url("images/watch.png"), linear-gradient(to right, rgba(254, 98, 8, 0.5), rgb(52, 48, 48));
+    background: url("../images/watch.png"), linear-gradient(to right, rgba(254, 98, 8, 0.5), rgb(52, 48, 48));
     background-blend-mode: overlay;
 }
 
