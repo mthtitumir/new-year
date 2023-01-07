@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+}
+body{
+    height: 4212px;
+    width: 1600px;
+    margin: 30px auto;
+    font-family: 'Work Sans', sans-serif;;
+}
+
+/* banner started  */
+.btn-banner{
+    color: white;
+    padding: 20px 25px;
+    background-color: orangered;
+    border: none;
+    margin-right: 230px;
+    margin-top: 32px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+header{
+    width: 1600px;
+    height: 808px;
+    background-image: url("../images/banner/banner1.png");
+    background-color: rgb(143, 140, 140);
+    background-blend-mode:overlay;
+    text-align: right;
+}
+.banner p{
+    font-size: 16px;
+    font-weight: 400;
+    padding-right: 230px;
+    margin-top: 24px;
+}
+.banner h3{
+    font-weight: 700;
+    font-size: 65px;
+    color: #151414;
+    font-family: Work Sans;
+    padding-top: 216px;
+    padding-right: 230px;
+}
+
+/* failures section  */
+.failures{
+    height: 723px;
+    width: 1072px;
+    margin-left: 206px;
+    margin-right: 322px;
+    margin-top: 130px;
+    margin-bottom: 130px;
+    display: flex;
+    gap: 87px;
+}
+.failures-text{
+    margin-top: 240px;
+    width: 416px;
+    height: 400px;
+}
+.failures-text,  h4{
+    font-weight: 700;
+    font-size: 40px;
+}
+.failures-text, p{
+    font-weight: 400;
+    font-size: 16px;
+}
+.failures-text .failures-subtitle1{
+    margin-top: 24px;
+}
+.failures-text .failures-subtitle2{
+    margin-top: 16px;
+}
+
+/* success section  */
+.success{
+    height: 723px;
+    width: 1072px;
+    margin-left: 322px;
+    margin-right: 206px;
+    margin-top: 130px;
+    margin-bottom: 130px;
+    display: flex;
+    gap: 87px;
+}
+.success-text{
+    margin-top: 240px;
+    width: 416px;
+    height: 400px;
+}
+.success-text,  h4{
+    font-weight: 700;
+    font-size: 40px;
+}
+.success-text, p{
+    font-weight: 400;
+    font-size: 16px;
+}
+.success-text .success-subtitle1{
+    margin-top: 24px;
+}
+.success-text .success-subtitle2{
+    margin-top: 16px;
+}
+
+/* plan section  */
+.plans{
+    margin: 130px 230px;
+    width: 1140px;
+    height: 300px;
+}
+.plans h4{
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+}
+.plans-container{
+    display: flex;
+    gap: 86px;
+    margin-top: 55px;
+    justify-content: space-between;
+}
+.plan-div{
+    text-align: center;
+}
+.plan-div img{
+    height: 93px;
+    width: 93px;
+}
+.plan-div h5{
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 34px;
+}
+.plan-div p{
+    font-weight: 500;
+    font-size: 25px;
+    margin-top: 16px;
+}
+
+/* mindset section  */
+.mindset{
+    margin: 130px 230px;
+    width: 1140px;
+    height: 301px;
+    background-image: url("/images/watch.png");
+    background: url("/images/watch.png"), linear-gradient(to right, rgba(254, 98, 8, 0.5), rgb(52, 48, 48));
+    background-blend-mode: overlay;
+}
+
+.mindset h4{
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+    padding-top: 60px;
+    margin-left: 64px;
+}
+.mindset button{
+    color: orangered;
+    padding: 20px 25px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 24px;
+    margin-left: 64px;
+}
+
+/* footer started  */
+.footer{
+    width: 1600px;
+    height: 576px;
+    border: 3px solid greenyellow;
+    margin-top: 130px;
+    display: flex;
+    gap: 330px;
+    background-color: black;
+}
+.future{
+    height: 320px;
+    width: 485px;
+    margin-top: 130px;
+    margin-bottom: 130px;
+    margin-left: 230px;
+    
+}
+
+.future h4{
+    color: white;
+    font-weight: 700;
+    font-size: 45px;
+    
+}
+.future p{
+    color: white;
+}
+
+.future-icon{
+    display: flex;
+    gap: 18px;
+    margin-top: 32px;
+}
+.future-p1{
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    
+}
+.future-p2{
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+.future-p3{
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+.subscribe{
+    height: 205px;
+    width: 325px;
+    margin-top: 130px;
+    margin-bottom: 240px;
+    margin-right: 230px;
+}
+.subscribe h6{
+    font-weight: 600;
+    font-size: 25px;
+    color: white;
+}
+.subscribe input{
+    border: 1px solid white;
+    background-color: black;
+    border-radius: 5px;
+    margin-top: 31px;
+    width: 325px;
+    height: 60px;
+}
+.subscribe button{
+    color: orangered;
+    padding: 20px 25px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 16px;
+}
