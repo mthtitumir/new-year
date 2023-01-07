@@ -180,6 +180,8 @@ header{
     gap: 330px;
     background-color: black;
 }
+
+/* footer future  */
 .future{
     height: 320px;
     width: 485px;
@@ -223,6 +225,7 @@ header{
 
 }
 
+/* footer success  */
 .subscribe{
     height: 205px;
     width: 325px;
